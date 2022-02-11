@@ -2,7 +2,7 @@
 if (isset($_POST['pseudo'])) {
     //connexion bdd 
     try {
-        $pdo = new PDO('mysql:host=127.0.0.1;dbname=Quizz;charset=utf8','root','', [
+        $pdo = new PDO('mysql:host=127.0.0.1;dbname=quizz;charset=utf8','root','', [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
     } catch (\Throwable $th) {

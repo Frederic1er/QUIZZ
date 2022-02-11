@@ -14,15 +14,19 @@ include './header.php';
                     <div class="myform form">
                         <div class="logo mb-3">
                             <div class="col-md-12 text-center">
-                                <h1>Login</h1>
+                                <h1>Selection des themes</h1>
                             </div>
                         </div>
-                        <form action="./process/process_login.php" method="POST" name="login">
+                        <form action="./test.php" method="POST" name="themes">
                             <div class="form-group">
-                                <input type="pseudo" name="pseudo" class="form-control" id="pseudo" aria-describedby="pseudo" placeholder="Entrez pseudo">
-                            </div>
-                            <div class="col-md-12 text-center ">
-                                <button type="submit" name="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                            <button type="submit" name="submit" class=" btn btn-block mybtn btn-primary tx-tfm">THEME 1 : Mangas</button>     
+                       </div>
+                       <div class="form-group">
+                            <button type="submit" name="submit" class=" btn btn-block mybtn btn-primary tx-tfm">THEME 2 : WEB DEV</button>     
+                       </div>
+                       <div class="form-group">
+                            <button type="submit" name="submit" class=" btn btn-block mybtn btn-primary tx-tfm">THEME 2 : Culture Générale</button>     
+                       </div>
                         </form>
                     </div>
                 </div>
